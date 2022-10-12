@@ -12,7 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.sty{
+background-color: #090058;
 
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +27,46 @@
   color: white;
 }
 
+.navi{
+  background: aquamarine;
+  color: black;
+}
+
 .App-link {
   color: #61dafb;
 }
+.th1{
+  align-content: left;
+  align-items: center;
+  text-align: left;
+  grid-auto-rows: auto;
+}
+.th{
+  text-align: justify;
+  align-items: center;
+  align-content: center;
+  grid-auto-rows: auto;
+}
+.bg{
+  
+}
+.th2{
 
+  align-items: center;
+  align-content: right;
+  text-align: right;
+  grid-auto-rows: auto;
+}
+.info{
+ width: auto;
+  height: 900px;
+  text-align: justify;
+}
+.info1{
+  width: auto;
+   height: 900px;
+   text-align: center;
+ }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
